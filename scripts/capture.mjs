@@ -1,4 +1,5 @@
-// One-off capture of the published Webflow site into src/.
+// One-off capture of the published Webflow site into src/ (kept for reference).
+// Do not re-run it: src/ has since been edited by hand (Articles page dropped, podcast clips on YouTube).
 // Downloads each page's HTML, localizes every asset (images, CSS, fonts, scripts) under src/assets/,
 // and removes scripts we decided not to keep. Safe to re-run: it overwrites the captured pages.
 import { mkdir, writeFile } from "node:fs/promises";
@@ -9,7 +10,6 @@ const OUT = path.resolve("src");
 const PAGES = [
   ["", "index"],
   ["about-us", "about-us"],
-  ["articles", "articles"],
   ["organizations", "organizations"],
   ["for-individuals", "for-individuals"],
   ["green-path-in-theory", "green-path-in-theory"],
