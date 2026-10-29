@@ -1,0 +1,5 @@
+_site/
+node_modules/
+# Podcast clips are moving to YouTube; do not commit the 55 MB of video.
+*.mp4
+.playwright-mcp/

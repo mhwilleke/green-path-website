@@ -1,0 +1,17 @@
+{
+  "name": "green-path-website",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "eleventy",
+    "start": "eleventy --serve",
+    "capture": "node scripts/capture.mjs"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^3.1.7"
+  },
+  "dependencies": {
+    "goo-motion-library": "1.0.1",
+    "swiper": "8.4.7"
+  }
+}
