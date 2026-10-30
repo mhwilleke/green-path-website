@@ -1,5 +1,7 @@
 export default function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/assets");
+  eleventyConfig.addPassthroughCopy("src/robots.txt");
+  eleventyConfig.addPassthroughCopy("src/sitemap.xml");
   eleventyConfig.addPassthroughCopy({
     "node_modules/swiper/swiper-bundle.min.js": "assets/vendor/swiper/swiper-bundle.min.js",
     "node_modules/swiper/swiper-bundle.min.css": "assets/vendor/swiper/swiper-bundle.min.css",
