@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "goo-motion-library": "1.0.1",
-    "swiper": "8.4.7"
+    "swiper": "8.4.7",
+    "visualdx": "1.1.15"
   }
 }
